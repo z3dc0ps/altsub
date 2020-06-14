@@ -13,7 +13,8 @@ Tool Used to Identify Available Domain/Sub-domain From the Wordlist with Respons
   
 #  Demo
   ![](http://jimmisimon.in/projects/altsub.JPG)<br><br>
-   Video Demo : http://www.jimmisimon.in/projects/altsub.php
+# Video Demo :
+  http://www.jimmisimon.in/projects/altsub.php
  
 <br>
 
