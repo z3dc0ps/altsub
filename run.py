@@ -33,7 +33,6 @@ def main():
 				print(colored("File Have [ http:// ] or [ https:// ] remove that and try again",'white','on_red'))
 			elif str2 in f.read():
 				print(colored("File Have [ https:// ] or [ https:// ] remove that and try again",'white','on_red'))
-			
 			else:
 				method = input("Enter The Method You Want to search http/https/both : ") 
 				num_lines = 0
@@ -69,6 +68,8 @@ def main():
 									
 								else:
 									print(colored('{:<50} {:<10} {:>34}'.format(url,code,ip),'yellow'))
+						except KeyboardInterrupt:
+							exit()
 						except:
 
 							continue
@@ -95,6 +96,8 @@ def main():
 									
 								else:
 									print(colored('{:<50} {:<10} {:>34}'.format(url,code,ip),'yellow'))
+						except KeyboardInterrupt:
+							exit()
 						except:
 
 							continue
@@ -123,6 +126,8 @@ def main():
 											
 										else:
 											print(colored('{:<50} {:<10} {:>34}'.format(url,code,ip),'yellow'))
+								except KeyboardInterrupt:
+									exit()
 								except:
 										return 0
 						def http2():				
@@ -146,6 +151,8 @@ def main():
 										
 									else:
 										print(colored('{:<50} {:<10} {:>34}'.format(url,code,ip),'yellow'))
+							except KeyboardInterrupt:
+								exit()
 							except:
 									return 0
 						http1()
